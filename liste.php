@@ -52,6 +52,12 @@ foreach($result as $data){
            <?php echo $data['quantite'];
            ?>
            </td>
+           <td>
+                    <form action="suppr.php">
+                        <input type="hidden" name="id" value="<?=$data['id']?>">
+                        <input type="submit" value="supprimer">
+                    </form>
+            </td>
      </tr>
      <?php
 }

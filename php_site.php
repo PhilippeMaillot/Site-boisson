@@ -6,5 +6,6 @@
 
  $requete="INSERT INTO produit(marque, quantite, prix) VALUES ('$marque', $qte, $prix)";
  $result = $connexion->query($requete);
-
+    $connexion->close();
+    include('Formulaire.html')
 ?>
