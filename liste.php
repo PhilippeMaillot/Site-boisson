@@ -4,17 +4,26 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Drinkin Shop</title>
+        <link rel="stylesheet" href="css_site.css">
     </head>
     <body>
+    <div class="Titre">
+            <h1>Drinkin Shop</h1>
+        </div>
+        <div class="liens">
+    <a href="Formulaire.html">Site de création de boisson</a></div>
         <table>
             <thead>
                 <tr>
                     <th>
-                        marque
+                        Marque
                     </th>
                     <th>
-                        prix
+                        Prix
+                    </th>
+                    <th>
+                        Quantité
                     </th>
                 </tr>
             </thead>
@@ -36,6 +45,11 @@ foreach($result as $data){
      <td>
            
            <?php echo $data['prix'];
+           ?>
+           </td>
+    <td>
+           
+           <?php echo $data['quantite'];
            ?>
            </td>
      </tr>

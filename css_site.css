@@ -1,0 +1,14 @@
+.Titre
+{
+    text-align: center;
+    background-color: rgb(205, 101, 101);
+    padding-top: 0%;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.liens
+{
+    position: fixed;
+    right: 5%;
+    top: 6%;
+}
