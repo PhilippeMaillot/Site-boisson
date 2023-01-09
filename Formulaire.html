@@ -6,31 +6,15 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <h1> Drinkin shop</h1>
-        <hr/>
-        <a href="Site Boisson.html"><b>Accueil</b></a><br/>
-        <a href="Formulaire.html">Formulaire</a>
-        <hr/>
-        <h3>Acheter des boissons</h3>
-        <p>Remplissez le formulaire ci-dessous pour commander des boissons !</p>
-        <h4>Informations personnelles</h4>
-
-        <form>
-            <p>Nom <input name="Nom" type="text"/></p>
-            <p>Prénom <input name="Prénom" type="text"/></p>
-            <p>Mail <input name="mail" type="text"/></p>
-        </form>
-        <h4>Information de livraison</h4>
-        <p>Quelle boisson voulez vous commander :</p>
-        <select name="Boissons">
-            <Option value="C">Coca-cola</Option>
-            <Option value="S">Sprite</Option>
-            <Option value="F">Fanta</Option>
-            <Option value="O">Oasis</Option>
-            <Option value="E">Eau minérale</Option>
+        <a href="Site Boisson.html">Site d'achat</a>
+        <form action="php_site.php" method="get">
+            <p>Marque <input name="Marque" type="text"/></p>
+            <p>Quantité <input name="Quantite" type="int"/></p>
+            <p>Prix <input name="Prix" type="int"/></p>
+        
         </select>
-        <h3>Confirmation</h3>
-        <input type ="checkbox" name="Relu"/> J'ai relu ma commande et certifie que ces informations sont correctes. <br/>
-        <input type="submit" value="Confirmer la commande"/><br/>
+
+        <input type="submit" value="Confirmer"/><br/>
+    </form>  
     </body>
 </html
