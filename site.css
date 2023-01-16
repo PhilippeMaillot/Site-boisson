@@ -1,0 +1,32 @@
+.body{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: left;
+    justify-content: left;
+    top: 10px;
+}
+.nav-list{
+    width:50%;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 10px 10px;
+}
+.background{
+    background-color: rgb(164, 174, 178);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.Titre{
+    text-align: center;
+}
+.liste{
+    text-align: center;
+}
+body{
+    background-image: url(https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png);
+}

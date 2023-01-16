@@ -24,7 +24,7 @@
    
  }
 else{
-    echo "Mail ou mot de passe incorrect !";
+    include('connexion.php');
 }
 ?>
 </body>

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <meta charset="utf-8">
-        <title> Drinkin shop</title>
-        <link rel="stylesheet" href="site.css">
-        
-    </head>
-    <body>
-        <div class="Titre">
-            <h1>Inscription</h1>
-        </div>
-        <nav class="navbar background">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Ajout produits</title>
+</head>
+<body>
+<div class="Titre">
+            <h1>Ajout produits</h1>
+        </div> 
+<nav class="navbar background">
         <ul class="nav-list">
                 <li><a href="Accueil.php">Accueil</a><li>
                 <li><a href="list_prod.php">Produits</a><li>
@@ -25,14 +26,11 @@
             <li><a href="deco.php">Deconnexion</a></li>
     <?php } ?>
             </ul>   
-        </nav> 
-    </div>
-        <form action="php_site.php" method="get">
-            <p>Nom <input name="nom" type="text"/></p>
-            <p>Email <input name="email" type="email"/></p>
-            <p>Mot de passe <input name="mdp" type="password"/></p>
-
+        </nav>
+<form action="php_produits.php" method="post" enctype="multipart/form-data">
+            <p>Marque <input name="marque" type="text"/></p>
+            <p>Prix <input name="prix" type="float"/></p>
         <input type="submit" value="Confirmer"/><br/>
-    </form>  
-    </body>
-</html
+    </form>
+</body>
+</html>
