@@ -12,7 +12,6 @@
         <?php
             session_start();
             if(isset($_SESSION['user'])){
-
             
         ?>
         <div class="liens">
@@ -23,9 +22,8 @@
     </div>
     <?php } ?>
         <div class="liens2">
-            <a href="Formulaire.html">Inscription</a>
+            <a href="Formulaire.php">Inscription</a>
     </div>
-
         <form action ="php_conn.php">
             <p>Email <input name="email" type="email"/></p>
             <p>Mot de passe <input name="mdp" type="password"/></p>

@@ -8,5 +8,5 @@
  $requete="INSERT INTO user(nom, email, mdp) VALUES ('$nom', '$mail', '$mdp')";
  $connexion->query($requete);
     $connexion->close();
-    include('formulaire.html')
+    include('formulaire.php')
 ?>

@@ -11,7 +11,18 @@
             <h1>Inscription</h1>
         </div>
         <div class="liens">
+        </div>
+           <?php
+            session_start();
+            if(isset($_SESSION['user'])){
+        ?>
+        <div class="liens">
             <a href="liste.php">Utilisateurs</a>
+    </div>
+    <div class="liens2">
+            <a href="deco.php">deconnexion</a>
+    </div>
+    <?php } ?>
     </div>
         <div class="liens2">
         <a href="connexion.php">Connexion</a>

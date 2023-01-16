@@ -12,7 +12,7 @@
             <h1>Utilisateurs</h1>
         </div>
         <div class="liens">
-    <a href="Formulaire.html">Inscription</a></div>
+    <a href="Formulaire.php">Inscription</a></div>
         <div class="liens2">
             <a href="connexion.php">Connexion</a>
     </div>
