@@ -9,47 +9,48 @@
     </head>
     <body>
     <div class="Titre">
-            <h1>Drinkin Shop</h1>
+            <h1>Utilisateurs</h1>
         </div>
         <div class="liens">
-    <a href="Formulaire.html">Site de création de boisson</a></div>
+    <a href="Formulaire.html">Inscription</a></div>
+        <div class="liens2">
+            <a href="connexion.php">Connexion</a>
+    </div>
         <table>
             <thead>
                 <tr>
                     <th>
-                        Marque
+                        Nom
                     </th>
                     <th>
-                        Prix
+                        Email
                     </th>
                     <th>
-                        Quantité
+                        Mot de passe
                     </th>
                 </tr>
             </thead>
             <tbody>
 <?php
 $connexion=new mysqli("localhost","root","","Siteboisson");
-
-$requete="SELECT * FROM `produit`";
+$requete="SELECT * FROM `user`";
 $result=$connexion->query($requete);
-
 foreach($result as $data){
     ?>
     <tr>
         <td>
            
-     <?php echo $data['marque'];
+     <?php echo $data['nom'];
      ?>
      </td>
      <td>
            
-           <?php echo $data['prix'];
+           <?php echo $data['email'];
            ?>
            </td>
-    <td>
+           <td>
            
-           <?php echo $data['quantite'];
+           <?php echo $data['mdp'];
            ?>
            </td>
            <td>

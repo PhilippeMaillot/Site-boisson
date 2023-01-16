@@ -1,11 +1,12 @@
 <?php
- $qte= $_GET['Quantite'];
- $marque= $_GET['Marque'];
- $prix= $_GET['Prix'];
+ $nom= $_GET['nom'];
+ $mail= $_GET['email'];
+ $mdp= $_GET['mdp'];
+
  $connexion=new mysqli("localhost","root","","Siteboisson");
 
- $requete="INSERT INTO produit(marque, quantite, prix) VALUES ('$marque', $qte, $prix)";
- $result = $connexion->query($requete);
+ $requete="INSERT INTO user(nom, email, mdp) VALUES ('$nom', '$mail', '$mdp')";
+ $connexion->query($requete);
     $connexion->close();
-    include('Formulaire.html')
+    include('formulaire.html')
 ?>
