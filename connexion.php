@@ -11,8 +11,7 @@
         </div>
         <?php
             session_start();
-            if(isset($_SESSION['user'])){
-            
+            if(isset($_SESSION['user'])){  
         ?>
         <div class="liens">
             <a href="liste.php">Utilisateurs</a>

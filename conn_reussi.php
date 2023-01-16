@@ -8,12 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<div class="liens">
-            <a href="connexion.php">Connexion</a>
-    </div>
-<div class="Titre">
+<nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="Accueil.php">Accueil</a></li>
+                <li><a href="Formulaire.php">Inscription</a></li>
+                <li><a href="connexion.php">Connexion</a></li>
+            </ul>
+        </nav>
             <h1>Connecté</h1>
-        </div>
     <P>Bonjour vous êtes connecté</p>
     <div class="liens2">
             <a href="deco.php">deconnexion</a>
