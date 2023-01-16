@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    Connecté
+    Bonjour vous êtes connecté
+    <div class="liens2">
+            <a href="deco.php">deconnexion</a>
+    </div>
 </body>
 </html>
