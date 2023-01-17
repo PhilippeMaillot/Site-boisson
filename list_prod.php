@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="Titre">
-            <h1>Accueil</h1>
+            <h1>Produits</h1>
         </div>   
 <nav class="navbar background">
         <ul class="nav-list">
